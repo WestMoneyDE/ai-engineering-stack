@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "supabase": {
+      "source": "supabase/agent-skills",
+      "skillPath": "skills/supabase/SKILL.md"
+    },
+    "supabase-postgres-best-practices": {
+      "source": "supabase/agent-skills",
+      "skillPath": "skills/supabase-postgres-best-practices/SKILL.md"
+    },
+    "vercel-composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "skillPath": "skills/composition-patterns/SKILL.md"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "skillPath": "skills/react-best-practices/SKILL.md"
+    },
+    "code-review-security": {
+      "source": "OWASP/secure-agent-playbook",
+      "skillPath": "plugins/code-security-skills/skills/code-review-security/SKILL.md"
+    },
+    "openapi-to-typescript": {
+      "source": "softaworks/agent-toolkit",
+      "skillPath": "skills/openapi-to-typescript/SKILL.md"
+    },
+    "stripe-webhooks": {
+      "source": "hookdeck/webhook-skills",
+      "skillPath": "skills/stripe-webhooks/SKILL.md"
+    },
+    "property-based-testing": {
+      "source": "aj-geddes/useful-ai-prompts",
+      "skillPath": "skills/property-based-testing/SKILL.md"
+    },
+    "customs-trade-compliance": {
+      "source": "affaan-m/ECC",
+      "skillPath": "skills/customs-trade-compliance/SKILL.md"
+    }
+  }
+}

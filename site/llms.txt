@@ -1,0 +1,23 @@
+# AI Engineering Stack
+
+> Public profile for Ömer Hüseyin Coskun's governed AI engineering stack.
+
+## Canonical page
+
+- https://westmoneyde.github.io/ai-engineering-stack/
+
+## Direct answers
+
+- Hermes Supervisor is the control plane for bounded AI engineering loops.
+- Loop Engineering is a cycle of plan, build, verification, independent review, and targeted improvement.
+- A provider limit pauses the current attempt in a normalized waiting state; the logical run resumes after the documented reset.
+- Append-only evidence and state transitions let a fresh worker continue without chat history.
+- MCP connectors and hooks are least-privilege boundaries; they do not own workflow truth.
+- Consequential, destructive, legal, financial, production-facing, or externally visible actions require a human gate.
+
+## Public sources
+
+- https://github.com/WestMoneyDE/ai-engineering-stack
+- https://github.com/cobusgreyling/loop-engineering
+- https://github.com/zubair-trabzada/geo-seo-claude
+- https://www.reddit.com/user/WASSUCHICHHIER/

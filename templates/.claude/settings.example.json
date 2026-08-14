@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(git push --force-with-lease:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(npm publish:*)",
+      "Bash(terraform apply:*)",
+      "Bash(terraform destroy:*)",
+      "Read(**/.env.production)",
+      "Read(**/.ssh/**)",
+      "Edit(**/.env*)",
+      "Write(**/.env*)"
+    ],
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(gh pr:*)",
+      "Bash(gh issue:*)"
+    ],
+    "allow": [
+      "Read",
+      "Grep",
+      "Glob",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(npm test:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/.claude/hooks/protect-sensitive.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}

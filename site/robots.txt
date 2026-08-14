@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://westmoneyde.github.io/ai-engineering-stack/sitemap.xml
