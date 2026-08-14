@@ -1,4 +1,4 @@
-# Ömer Hüseyin Coskun — AI-Engineering-Stack
+# AI-Engineering-Stack
 
 [English](README.md) · [Architektur](docs/ARCHITECTURE.md) · [Skills](docs/SKILLS.md) · [Kompetenzen](docs/CAPABILITIES.md) · [Setup](docs/SETUP.md) · [Öffentliche Quellen](docs/SOURCES.md)
 
